@@ -1,3 +1,4 @@
+//? When Account Phone is updated then all related contact phone shoud be updated as well. 
 public with sharing class UpdateChildByParentHandler {
     public UpdateChildByParentHandler() { }
     public static void ContactUpdate(List<Account> accRec){
